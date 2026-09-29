@@ -1,0 +1,25 @@
+.weather-grid {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.grid-title {
+  color: #a5b4fc;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.2rem;
+}
+
+.grid-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media (max-width: 600px) {
+  .grid-cards { flex-direction: column; }
+  .weather-grid { padding: 1rem; }
+}
